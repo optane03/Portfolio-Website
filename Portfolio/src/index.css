@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  padding: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.btn{
+  background: linear-gradient(120deg, #B13BFF, black, #B13BFF);
+  background-size: 250% 100%;
+  background-position: right;
+  transition: all 1s;
+}
+
+.btn:hover{
+  background-position: left;
+}
